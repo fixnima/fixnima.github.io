@@ -63,7 +63,7 @@ li {
 
 .a-email {
     color: rgb(88, 145, 3);
-    font-size: 32px;
+    font-size: 28px;
     font-family: "Changa", sans-serif;
 }
 
@@ -75,14 +75,13 @@ li {
     font-family: "Rubik Mono One", sans-serif;
     font-size: 55px;
     color: rgb(148, 255, 255);
-    text-align: center;
 }
 
 .p-outsource {
     font-family: "Montserrat Alternates", sans-serif;
     color: rgb(148, 255, 255);
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .web {
@@ -99,6 +98,6 @@ li {
 .p-web {
     font-family: "Montserrat Alternates", sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     color:rgb(133, 133, 133);
 }
