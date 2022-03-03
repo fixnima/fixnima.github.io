@@ -61,14 +61,44 @@ li {
 
 }
 
-h1 {
+.a-email {
+    color: rgb(88, 145, 3);
+    font-size: 32px;
+    font-family: "Changa", sans-serif;
+}
+
+.a-email:hover {
+    color: royalblue;
+}
+
+.h1-outsource {
     font-family: "Rubik Mono One", sans-serif;
     font-size: 55px;
     color: rgb(148, 255, 255);
+    text-align: center;
 }
 
-p {
+.p-outsource {
     font-family: "Montserrat Alternates", sans-serif;
     color: rgb(148, 255, 255);
+    text-align: center;
+    font-size: 30px;
 }
 
+.web {
+    background-color: whitesmoke;
+}
+
+.h1-web {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color:rgb(133, 133, 133);
+}
+
+.p-web {
+    font-family: "Montserrat Alternates", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(133, 133, 133);
+}
