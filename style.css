@@ -115,6 +115,7 @@ li {
 .assembly {
     background-color: black;
     max-width: 30%;
+    float: left;
 }
 
 .h1-assembly {
@@ -133,6 +134,7 @@ li {
 
 .servis {
     max-width: 60%;
+    float: right;
 }
 
 .h1-servis {
