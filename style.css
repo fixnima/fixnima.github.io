@@ -113,9 +113,9 @@ li {
 }
 
 .assembly {
-    background-color: black;
     max-width: 30%;
     float: left;
+    border-color: rgb(148, 255, 255);
 }
 
 .h1-assembly {
@@ -135,6 +135,8 @@ li {
 .servis {
     max-width: 60%;
     float: right;
+    border-color: rgb(148, 255, 255);
+    padding-left: 0;
 }
 
 .h1-servis {
