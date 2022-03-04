@@ -61,6 +61,16 @@ li {
 
 }
 
+.a-phone {
+    color: rgb(88, 145, 3);
+    font-size: 28px;
+    font-family: "Changa", sans-serif;
+}
+
+.a-phone:hover {
+    color: royalblue;
+}
+
 .a-email {
     color: rgb(88, 145, 3);
     font-size: 28px;
@@ -101,3 +111,36 @@ li {
     font-size: 26px;
     color:rgb(133, 133, 133);
 }
+
+.assembly {
+    background-color: black;
+}
+
+.h1-assembly {
+    color:rgb(148, 255, 255);
+    font-size: 55px;
+    text-align: center;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+.p-assembly {
+    font-family: "Montserrat Alternates", sans-serif;
+    text-align: center;
+    font-size: 26px;
+    color:rgb(148, 255, 255);
+}
+
+.h1-servis {
+    color: rgb(148, 255, 255);
+    font-size: 55px;
+    text-align: center;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+.p-servis {
+    font-family: "Montserrat Alternates", sans-serif;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(148, 255, 255);
+}
+
