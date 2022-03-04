@@ -114,6 +114,7 @@ li {
 
 .assembly {
     background-color: black;
+    max-width: 30%;
 }
 
 .h1-assembly {
@@ -128,6 +129,10 @@ li {
     text-align: center;
     font-size: 26px;
     color:rgb(148, 255, 255);
+}
+
+.servis {
+    max-width: 60%;
 }
 
 .h1-servis {
