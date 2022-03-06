@@ -161,17 +161,17 @@ li {
     color: rgb(148, 255, 255);
 }
 
+/* hamburger icon */
+
 #hamburger-icon {
     margin: auto 0;
     display: none;
     cursor: pointer;
 }
 
-/* hamburger icon */
-
 #hamburger-icon div {
-    min-width: 35px;
-    min-height: 3px;
+    width: 35px;
+    height: 3px;
     background-color: rgb(148, 255, 255);
     margin: 6px 0;
     transition: 0.4s;
@@ -242,7 +242,7 @@ li {
     }
 }
 
-/* For iPhone SE Portrait View */
+/* For iPhone SE1 Portrait View */
 
 @media screen and (max-device-width: 640px) {
     .nav-bar {
@@ -251,6 +251,9 @@ li {
 
     #hamburger-icon {
         display: block;
+        width: 105px;
+        height: 9px;
+        margin: 18px 0;
     }
 }
 
