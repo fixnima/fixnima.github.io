@@ -1,6 +1,7 @@
+
 html {
-    width: 1920px;
-    height: 1080px;
+    max-width: 4096px;
+    max-height: 2160px;
     background-image: linear-gradient(to top right, rgb(22, 22, 22) , rgb(31, 31, 31));
 }
 
@@ -20,6 +21,8 @@ ul {
     overflow: hidden;
     background-color: rgb(148, 255, 255);
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 li {
@@ -204,6 +207,10 @@ li {
     justify-content: flex-start;
 }
 
+.mobile.menu li {
+    margin-bottom: 10px;
+}
+
 
 @media only screen and (max-width: 600px) {
     header nav {
@@ -214,3 +221,11 @@ li {
         display: block;
     }
 }
+
+header {
+    padding: 0 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
