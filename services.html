@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <header>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -17,7 +17,19 @@
                 <li class="nav-item"><a class="a-navigation" href="contact.html">Kontakt </a></li>
             </ul>
         </nav>
-    </head>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="index.html">Domov</a></li>
+                <li><a href="services.html">Služby</a></li>
+                <li><a href="ref.html">Referencie</a></li>
+                <li><a href="about.html">O nás</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
     <body>
         <div>
             <article class="outsource">
@@ -48,5 +60,6 @@
                 <p class="p-servis">V prípade záujmu o servis Vášho zariadenia a cenovú kalkuláciu nás neváhajte kontaktovať na <a class="a-email" href="mailto: zdenka@fixnima.online">zdenka@fixnima.online</a> alebo <a class="a-phone" href="tel: +421951304779">+421 951 304 779</a></p>
             </article>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
