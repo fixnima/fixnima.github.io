@@ -10,7 +10,7 @@ html {
     max-height: 198px;
     min-width: auto;
     min-height: auto;
-    float: left;
+    float: right;
 }
 
 a {
@@ -29,7 +29,7 @@ ul {
 
 li {
     display: inline;
-    float: right;
+    float: left;
 }
 
 .nav-bar {
