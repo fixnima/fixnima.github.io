@@ -215,6 +215,18 @@ li {
     margin-bottom: 10px;
 }
 
+.ham-item {
+    color: rgb(133, 133, 133);
+    font-size: 22px;
+}
+
+.ham-item:hover {
+    background-color: black;
+    color: rgb(148, 255, 255);
+    font-size: 24px;
+    transition: 0.5s;
+}
+
 /* <----- Screen Size Responsivnes -----> */
 
 /* For Mobile Portrait View */
