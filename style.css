@@ -199,7 +199,7 @@ li {
     top: 50px;
     left: 0;
     height: calc(100vh - 50px);
-    width: 75%;
+    width: 50%;
     font-family: "Rubik Mono One", sans-serif;
     color: rgb(133, 133, 133);
 }
