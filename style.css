@@ -170,8 +170,8 @@ li {
 /* hamburger icon */
 
 #hamburger-icon div {
-    width: 35px;
-    height: 3px;
+    min-width: 35px;
+    min-height: 3px;
     background-color: rgb(148, 255, 255);
     margin: 6px 0;
     transition: 0.4s;
@@ -224,7 +224,8 @@ li {
     background-color: black;
     color: rgb(148, 255, 255);
     font-size: 24px;
-    transition: 0.5s;
+    transition: 0.7s;
+    transition-timing-function: linear;
 }
 
 /* <----- Screen Size Responsivnes -----> */
