@@ -175,6 +175,7 @@ li {
     background-color: rgb(148, 255, 255);
     margin: 6px 0;
     transition: 0.4s;
+    float: left;
 }
 
 .open .bar1{
@@ -199,7 +200,7 @@ li {
     top: 50px;
     left: 0;
     height: calc(100vh - 50px);
-    width: 100%;
+    width: 75%;
 }
 
 .open .mobile-menu {
