@@ -215,8 +215,59 @@ li {
     margin-bottom: 10px;
 }
 
+/* <----- Screen Size Responsivnes -----> */
 
-@media only screen and (max-width: 600px) {
+/* For Mobile Portrait View */
+
+@media screen and (max-device-width: 480px) {
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+}
+
+/* For iPhone SE Portrait View */
+
+@media screen and (max-device-width: 640px) {
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+}
+
+/* For iPhone 6, 6S, 7, 8, SE2, 11, 12mini, 13mini, etc Portrait View */
+
+@media screen and (max-device-width: 1080px) {
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+}
+
+/* For iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus, XS Max, etc. Portrait View */
+
+@media screen and (max-device-width: 1284px) {
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+}
+
+/* For Mobile Portrait View */
+
+@media screen and (max-device-width: 480px) {
     .nav-bar {
         display: none;
     }
