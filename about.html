@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <header>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Changa&family=Manrope:wght@600&family=Montserrat+Alternates:wght@500&family=Rubik+Mono+One&display=swap" rel="stylesheet">
-        <title>O nás FiXni MA</title>
+        <title>Služby FiXni MA</title>
         <link rel="shortcut icon" href="media/shortcutIcon.ico">
         <img class="banner" src="media/transparentBanner.png" href="index.html">
         <nav>
             <ul class="nav-bar">
-                <li class="nav-item"><a href="index.html">Domov </a></li>
-                <li class="nav-item"><a href="services.html">Služby </a></li>
-                <li class="nav-item"><a href="ref.html">Referencie </a></li>
-                <li class="nav-item-active"><a href="about.html">O nás </a></li>
-                <li class="nav-item"><a href="contact.html">Kontakt </a></li>
+                <li class="nav-item"><a class="a-navigation" href="index.html">Domov </a></li>
+                <li class="nav-item-active"><a class="a-navigation" href="services.html">Služby </a></li>
+                <li class="nav-item"><a class="a-navigation" href="ref.html">Referencie </a></li>
+                <li class="nav-item"><a class="a-navigation" href="about.html">O nás </a></li>
+                <li class="nav-item"><a class="a-navigation" href="contact.html">Kontakt </a></li>
             </ul>
         </nav>
-    </head>
-    <body></body>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="index.html">Domov</a></li>
+                <li><a href="services.html">Služby</a></li>
+                <li><a href="ref.html">Referencie</a></li>
+                <li><a href="about.html">O nás</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        
+        <script src="index.js"></script>
+    </body>
 </html>
