@@ -175,7 +175,6 @@ li {
     background-color: rgb(148, 255, 255);
     margin: 6px 0;
     transition: 0.4s;
-    float: left;
 }
 
 .open .bar1{
