@@ -90,6 +90,10 @@ li {
     color: rgb(88, 145, 3);
 }
 
+.outsource {
+    align-items: center;
+}
+
 .h1-outsource {
     font-family: "Rubik Mono One", sans-serif;
     font-size: 55px;
