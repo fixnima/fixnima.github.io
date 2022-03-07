@@ -251,6 +251,26 @@ li {
     font-size: 26px;
 }
 
+/* styling for cotanct */
+
+.logos {
+    text-align: center;
+}
+
+.facebook {
+    width: 100px;
+    height: 100px;
+    color: rgb(148, 255, 255);
+    margin: 60px;
+}
+
+.email {
+    width: 100px;
+    height: 100px;
+    color: rgb(148, 255, 255);
+    margin: 60px;
+}
+
 /* <----- Screen Size Responsivnes -----> */
 
 /* For Mobile Portrait View */
