@@ -311,7 +311,7 @@ li {
         width: 100%;
     }
 
-    .assemlby {
+    .assembly {
         width: 100%;
         background-color: rgb(133, 133, 133);
     }
@@ -342,7 +342,7 @@ li {
         width: 100%;
     }
 
-    .assemlby, .h1-assembly, .p-assembly {
+    .assembly, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
         background-color: rgb(133, 133, 133);
@@ -376,7 +376,7 @@ li {
         width: 100%;
     }
 
-    .assemlby, .h1-assembly, .p-assembly {
+    .assembly, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
         background-color: rgb(133, 133, 133);
@@ -409,7 +409,7 @@ li {
         width: 100%;
     }
 
-    .assemlby, .h1-assembly, .p-assembly {
+    .assembly, .h1-assembly, .p-assembly {
         width: 100%;
         background-color: rgb(133, 133, 133);
         display: block;
