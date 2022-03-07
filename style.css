@@ -77,7 +77,7 @@ li {
 }
 
 .a-phone:hover {
-    color: royalblue;
+    color: rgb(88, 145, 3);
 }
 
 .a-email {
@@ -274,6 +274,7 @@ li {
 
 .company {
     align-items: center;
+    width: 100%;
 }
 
 .company-name {
@@ -304,6 +305,20 @@ li {
     #hamburger-icon {
         display: block;
     }
+
+    .outsource {
+        width: 100%;
+    }
+
+    .assemlby {
+        width: 100%;
+    }
+
+    .servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+    }
 }
 
 /* For iPhone SE1 Portrait View */
@@ -316,7 +331,22 @@ li {
     #hamburger-icon {
         display: block;
     }
+
+    .outsource {
+        width: 100%;
+    }
+
+    .assemlby {
+        width: 100%;
+    }
+
+    .servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+    }
 }
+
 
 /* For iPhone 6, 6S, 7, 8, SE2, 11, 12mini, 13mini, etc Portrait View */
 
@@ -327,6 +357,20 @@ li {
 
     #hamburger-icon {
         display: block;
+    }
+
+    .outsource {
+        width: 100%;
+    }
+
+    .assemlby {
+        width: 100%;
+    }
+
+    .servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
     }
 }
 
@@ -340,6 +384,21 @@ li {
     #hamburger-icon {
         display: block;
     }
+
+    .outsource {
+        width: 100%;
+    }
+
+    .assemlby {
+        width: 100%;
+    }
+
+    .servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+    }
 }
+
 
 
