@@ -341,14 +341,16 @@ li {
         width: 100%;
     }
 
-    .assemlby {
+    .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
+        float: unset;
     }
 
-    .servis {
+    .servis, .h1-servis, .p-servis {
         width: 100%;
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
+        float: unset;
     }
 
     .banner {
@@ -372,14 +374,16 @@ li {
         width: 100%;
     }
 
-    .assemlby {
+    .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
+        float: unset;
     }
 
-    .servis {
+    .servis, .h1-servis, .p-servis {
         width: 100%;
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
+        float: unset;
     }
 
     .banner {
@@ -402,14 +406,16 @@ li {
         width: 100%;
     }
 
-    .assemlby {
+    .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
+        float: unset;
     }
 
-    .servis {
+    .servis, .h1-servis, .p-servis {
         width: 100%;
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
+        float: unset;
     }
 
     .banner {
