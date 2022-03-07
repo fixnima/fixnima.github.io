@@ -68,7 +68,7 @@ li {
 
 }
 
-/* services elements styling */
+/* services.html elements styling */
 
 .a-phone {
     color: royalblue;
@@ -241,6 +241,7 @@ li {
 .about-us-div {
     width: 100%;
     padding-top: 100px;
+    align-items: center;
 }
 
 .h1-about {
