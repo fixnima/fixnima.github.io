@@ -411,15 +411,15 @@ li {
 
     .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
-        float: unset;
         background-color: rgb(133, 133, 133);
+        display: block;
     }
 
     .servis, .h1-servis, .p-servis {
         width: 100%;
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
-        float: unset;
+        display: block;
     }
 
     .banner {
