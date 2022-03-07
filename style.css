@@ -122,7 +122,7 @@ li {
 }
 
 .assembly {
-    width: 35%;
+    width: 100%;
     float: left;
     border-color: rgb(148, 255, 255);
 }
@@ -142,7 +142,7 @@ li {
 }
 
 .servis {
-    width: 60%;
+    width: 100%;
     float: right;
     border-color: rgb(148, 255, 255);
     padding-left: 0;
