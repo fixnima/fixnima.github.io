@@ -320,6 +320,10 @@ li {
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
     }
+   
+    .banner {
+        size: 25%;
+    }
 }
 
 /* For iPhone SE1 Portrait View */
@@ -345,6 +349,10 @@ li {
         width: 100%;
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
+    }
+
+    .banner {
+        size: 25%;
     }
 }
 
@@ -373,6 +381,10 @@ li {
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
     }
+
+    .banner {
+        size: 25%;
+    }
 }
 
 /* For iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus, XS Max, etc. Portrait View */
@@ -398,6 +410,10 @@ li {
         width: 100%;
         color: rgb(133, 133, 133);
         background-color: rgb(148, 255, 255);
+    }
+
+    .banner {
+        size: 25%;
     }
 }
 
