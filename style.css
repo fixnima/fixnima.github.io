@@ -306,7 +306,7 @@ li {
 
 /* For Mobile Portrait View */
 
-@media screen and (max-device-width: 480px) {
+/* @media screen and (max-device-width: 480px) {
     .nav-bar {
         display: none;
     }
@@ -339,7 +339,7 @@ li {
         size: 25%;
     }
 }
-
+*/
 /* For iPhone SE1 Portrait View */
 
 /*@media screen and (max-device-width: 640px) {
