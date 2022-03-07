@@ -488,6 +488,11 @@ li {
         display: block;
     }
 
+    #hamburger-icon div {
+        width: 2rem;
+        height: 2rem;
+    }
+
     .outsource {
         width: 100%;
     }
