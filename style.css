@@ -301,138 +301,138 @@ li {
 }
 
 
-/* <----- Screen Size Responsivnes -----> */
+/* <----- Media Queries based on Screen Size -----> */
 
 /* For Mobile Portrait View */
 
-@media screen and (max-device-width: 480px) {
-    .nav-bar {
-        display: none;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
     }
-
-    #hamburger-icon {
-        display: block;
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
     }
-
-    .outsource {
-        width: 100%;
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
     }
-
-    .assembly {
-        width: 100%;
-        background-color: rgb(133, 133, 133);
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
     }
-
-    .servis {
-        width: 100%;
-        color: rgb(133, 133, 133);
-        background-color: rgb(148, 255, 255);
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
     }
-   
-    .banner {
-        size: 25%;
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
     }
-}
-
-/* For iPhone SE1 Portrait View */
-
-@media screen and (max-device-width: 640px) {
-    .nav-bar {
-        display: none;
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
     }
-
-    #hamburger-icon {
-        display: block;
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
     }
-
-    .outsource {
-        width: 100%;
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    /* Styles */
     }
-
-    .assembly, .h1-assembly, .p-assembly {
-        width: 100%;
-        float: unset;
-        background-color: rgb(133, 133, 133);
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
     }
-
-    .servis, .h1-servis, .p-servis {
-        width: 100%;
-        color: rgb(133, 133, 133);
-        background-color: rgb(148, 255, 255);
-        float: unset;
+    
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
     }
-
-    .banner {
-        size: 25%;
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
     }
-}
-
-
-/* For iPhone 6, 6S, 7, 8, SE2, 11, 12mini, 13mini, etc Portrait View */
-
-@media screen and (max-device-width: 1080px) {
-    .nav-bar {
-        display: none;
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-
-    #hamburger-icon {
-        display: block;
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-
-    .outsource {
-        width: 100%;
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-
-    .assembly, .h1-assembly, .p-assembly {
-        width: 100%;
-        float: unset;
-        background-color: rgb(133, 133, 133);
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-
-    .servis, .h1-servis, .p-servis {
-        width: 100%;
-        color: rgb(133, 133, 133);
-        background-color: rgb(148, 255, 255);
-        float: unset;
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-
-    .banner {
-        size: 25%;
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-}
-
-/* For iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus, XS Max, etc. Portrait View */
-
-@media screen and (max-device-width: 1284px) {
-    .nav-bar {
-        display: none;
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
     }
-
-    #hamburger-icon {
-        display: block;
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
     }
-
-    .outsource {
-        width: 100%;
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
     }
-
-    .assembly, .h1-assembly, .p-assembly {
-        width: 100%;
-        background-color: rgb(133, 133, 133);
-        display: block;
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
     }
-
-    .servis, .h1-servis, .p-servis {
-        width: 100%;
-        color: rgb(133, 133, 133);
-        background-color: rgb(148, 255, 255);
-        display: block;
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-
-    .banner {
-        size: 25%;
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
-}
-
-
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
 
