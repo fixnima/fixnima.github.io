@@ -409,6 +409,7 @@ li {
     .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
+        background-color: rgb(133, 133, 133));
     }
 
     .servis, .h1-servis, .p-servis {
