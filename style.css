@@ -495,7 +495,7 @@ li {
     .assembly, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
-        background-color: rgb(133, 133, 133);
+        background-color: black;
     }
 
     .servis, .h1-servis, .p-servis {
