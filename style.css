@@ -278,14 +278,4 @@ li {
     }
 }
 
-/* For Mobile Portrait View */
 
-@media screen and (max-device-width: 480px) {
-    .nav-bar {
-        display: none;
-    }
-
-    #hamburger-icon {
-        display: block;
-    }
-}
