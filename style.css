@@ -202,7 +202,7 @@ li {
     width: 50%;
     font-family: "Rubik Mono One", sans-serif;
     color: rgb(133, 133, 133);
-    background: hsl(180, 100%, 79% / 0.4);
+    background: hsl(180 100% 79% / 0.4);
 }
 
 .open .mobile-menu {
