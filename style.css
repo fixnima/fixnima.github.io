@@ -283,6 +283,7 @@ li {
     font-weight: bold;
     font-family: "Rubik Mono One", sans-serif;
     color: rgb(148, 255, 255);
+    text-align: center;
 }
 
 .company-adress, .company-city, .company-postcode {
