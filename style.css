@@ -71,7 +71,7 @@ li {
 /* services elements styling */
 
 .a-phone {
-    color: rgb(88, 145, 3);
+    color: royalblue;
     font-size: 28px;
     font-family: "Changa", sans-serif;
 }
@@ -81,13 +81,13 @@ li {
 }
 
 .a-email {
-    color: rgb(88, 145, 3);
+    color: royalblue;
     font-size: 28px;
     font-family: "Changa", sans-serif;
 }
 
 .a-email:hover {
-    color: royalblue;
+    color: rgb(88, 145, 3);
 }
 
 .h1-outsource {
