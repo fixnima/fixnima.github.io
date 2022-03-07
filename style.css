@@ -229,6 +229,27 @@ li {
     transition-timing-function: linear;
 }
 
+
+/* styling for about.html */
+
+.about-us-div {
+    width: 100%;
+}
+
+.h1-about {
+    color: rgb(148, 255, 255);
+    font-size: 55px;
+    text-align: center;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+.p-about {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(148, 255, 255);
+    text-align: center;
+    font-size: 26px;
+}
+
 /* <----- Screen Size Responsivnes -----> */
 
 /* For Mobile Portrait View */
