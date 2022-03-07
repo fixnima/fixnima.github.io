@@ -313,6 +313,7 @@ li {
 
     .assemlby {
         width: 100%;
+        background-color: rgb(133, 133, 133);
     }
 
     .servis {
@@ -344,6 +345,7 @@ li {
     .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
+        background-color: rgb(133, 133, 133);
     }
 
     .servis, .h1-servis, .p-servis {
@@ -377,6 +379,7 @@ li {
     .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
+        background-color: rgb(133, 133, 133);
     }
 
     .servis, .h1-servis, .p-servis {
@@ -409,7 +412,7 @@ li {
     .assemlby, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
-        background-color: rgb(133, 133, 133));
+        background-color: rgb(133, 133, 133);
     }
 
     .servis, .h1-servis, .p-servis {
