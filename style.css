@@ -200,15 +200,18 @@ li {
 
 .mobile-menu {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0;
     height: calc(100vh - 50px);
-    width: 50%;
+    width: 0;
     font-family: "Rubik Mono One", sans-serif;
     color: rgb(133, 133, 133);
     background: hsl(180 100% 79% / 0.9);
     transition: 0.5s;
+    padding-top: 60px;
+    overflow-x: hidden;
+    z-index: 1;
 }
 
 .open .mobile-menu {
@@ -233,6 +236,11 @@ li {
     font-size: 31px;
     transition: 0.7s;
     transition-timing-function: linear;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
 }
 
 
