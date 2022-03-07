@@ -91,6 +91,7 @@ li {
 }
 
 .outsource {
+    padding-top: 120px;
     align-items: center;
 }
 
@@ -98,6 +99,7 @@ li {
     font-family: "Rubik Mono One", sans-serif;
     font-size: 55px;
     color: rgb(148, 255, 255);
+    text-align: center;
 }
 
 .p-outsource {
