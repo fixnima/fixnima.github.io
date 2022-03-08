@@ -302,6 +302,48 @@ li {
 }
 
 
+/* index.html styling */
+
+.welcome {
+    padding-top: 120px;
+    align-items: center;
+    width: 100%;
+}
+
+.h1-welcome {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(148, 255, 255);
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+.div-foto-servis1 {
+    padding-top: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+.h2-foto-servis1 {
+    text-align: center;
+    color: rgb(148, 255, 255);
+    font-size: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.img-foto-servis1 {
+    align-self: center;
+    width: 360px;
+    height: 480px;
+}
+
+.p-foto-servis1 {
+    text-align: center;
+    color: rgb(148, 255, 255);
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
 /* <----- Media Queries based on Screen Size -----> */
 
 /* For Mobile Portrait View */
