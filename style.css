@@ -547,6 +547,12 @@ a {
     
     @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
+
+    html {
+        min-height: 568px;
+        min-width: 320px;
+    }
+
     .nav-bar {
         display: none;
     }
@@ -556,7 +562,7 @@ a {
     }
 
     #hamburger-icon div {
-        width: 100px;
+        width: 85px;
         height:1rem;
         margin: 9px;
     }
@@ -589,7 +595,7 @@ a {
     }
 
     .banner {
-        size: 25%;
+        size: 15%;
     }
 }
 
