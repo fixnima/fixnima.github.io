@@ -277,7 +277,8 @@ a {
 
 .facebook:hover {
     color: rgb(96, 172, 172);
-    transition: 0.3s;
+    transition: 0.5s;
+    transition-timing-function: linear;
 }
 
 .email {
@@ -289,7 +290,8 @@ a {
 
 .email:hover {
     color: rgb(96, 172, 172);
-    transition: 0.3s;
+    transition: 0.5s;
+    transition-timing-function: linear;
 }
 
 .company {
