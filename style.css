@@ -116,7 +116,8 @@ a {
 
 .web {
     background-color: rgb(148, 255, 255);
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -139,7 +140,8 @@ a {
 
 .assembly {
     border-color: rgb(148, 255, 255);
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -163,7 +165,8 @@ a {
 
 .servis {
     background-color: rgb(148, 255, 255);
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
