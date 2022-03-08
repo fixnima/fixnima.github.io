@@ -614,6 +614,10 @@ a {
         transform: rotate(45deg) translate(-15px, -19px)
     }
 
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
 
     .assembly, .h1-assembly, .p-assembly {
         width: 100%;
@@ -639,12 +643,7 @@ a {
     .mobile-menu li {
         margin-top: 20px;
     }
-
-    .p-outsource, .div-outsource, .h1-outsource {
-        width: 100%;
     }
-
-}
 
     
     /* iPhone 6, 7, 8 ----------- */
