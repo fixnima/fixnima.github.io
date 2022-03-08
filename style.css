@@ -99,6 +99,7 @@ a {
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
+    width: 100%;
 }
 
 .h1-outsource {
@@ -588,10 +589,6 @@ a {
     html {
         min-height: 568px;
         min-width: 320px;
-    }
-
-    body {
-        width: 100%;
     }
 
     .nav-bar {
