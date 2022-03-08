@@ -334,11 +334,16 @@ a {
 }
 
 .img-foto-servis1 {
-    align-content: center;
+    text-align: center;
     width: 360px;
     height: 480px;
     left: 50%;
     right: 50%;
+}
+
+.img-imac {
+    width: 360px;
+    height: 480px;
 }
 
 .p-foto-servis1 {
