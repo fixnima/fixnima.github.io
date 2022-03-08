@@ -588,7 +588,10 @@ a {
     html {
         min-height: 568px;
         min-width: 320px;
-        background-image: linear-gradient(to top right, rgb(22, 22, 22), rgb(48, 48, 48));
+    }
+
+    body {
+        width: 100%;
     }
 
     .nav-bar {
@@ -623,7 +626,6 @@ a {
     .assembly, .h1-assembly, .p-assembly {
         width: 100%;
         float: unset;
-        background-color: black;
     }
 
     .servis, .h1-servis, .p-servis {
