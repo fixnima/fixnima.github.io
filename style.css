@@ -276,8 +276,8 @@ a {
 }
 
 .facebook:hover {
-    color: blue;
-    transition: 0.5s;
+    color: rgb(96, 172, 172);
+    transition: 0.3s;
 }
 
 .email {
@@ -288,8 +288,8 @@ a {
 }
 
 .email:hover {
-    color: blue;
-    transition: 0.5s;
+    color: rgb(96, 172, 172);
+    transition: 0.3s;
 }
 
 .company {
