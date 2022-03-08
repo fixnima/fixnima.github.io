@@ -224,7 +224,7 @@ a {
     position: absolute;
     top: 50px;
     left: 0;
-    height: calc(100vh - 50px);
+    height: 100%;
     width: 50%;
     font-family: "Rubik Mono One", sans-serif;
     color: rgb(133, 133, 133);
@@ -240,7 +240,7 @@ a {
     transition: 0.7s;
 }
 
-.mobile.menu li {
+.mobile-menu li {
     margin-bottom: 10px;
     text-decoration: none;
 }
@@ -630,6 +630,14 @@ a {
     .web, .h1-web, .p-web {
         width: 100%;
         float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 1.5rem;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
     }
 
 }
