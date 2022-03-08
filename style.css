@@ -333,7 +333,7 @@ a {
 }
 
 .img-foto-servis1 {
-    text-align: center;
+    align-content: center;
     width: 360px;
     height: 480px;
 }
