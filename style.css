@@ -337,8 +337,8 @@ a {
     align-content: center;
     width: 360px;
     height: 480px;
-    padding-left: 250px;
-    padding-right: 250px;
+    left: 50%;
+    right: 50%;
 }
 
 .p-foto-servis1 {
