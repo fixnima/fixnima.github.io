@@ -148,12 +148,12 @@ a {
 
 .servis {
     width: 100%;
-    border-color: rgb(148, 255, 255);
     padding-left: 0;
+    background-color: rgb(148, 255, 255);
 }
 
 .h1-servis {
-    color: rgb(148, 255, 255);
+    color: rgb(133, 133, 133);
     font-size: 55px;
     text-align: center;
     font-family: "Rubik Mono One", sans-serif;
@@ -163,7 +163,7 @@ a {
     font-family: "Montserrat Alternates", sans-serif;
     text-align: center;
     font-size: 26px;
-    color: rgb(148, 255, 255);
+    color: rgb(133, 133, 133);
 }
 
 /* hamburger icon */
