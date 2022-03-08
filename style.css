@@ -70,6 +70,11 @@ a {
 
 /* services.html elements styling */
 
+.body-services {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .a-phone {
     color: royalblue;
     font-size: 28px;
@@ -242,6 +247,8 @@ a {
 .about-us-div {
     width: 100%;
     padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: center;
 }
 
