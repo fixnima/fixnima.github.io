@@ -217,7 +217,6 @@ a {
     align-items: center;
     justify-content: flex-start;
     transition: 0.7s;
-    text-decoration: none;
 }
 
 .mobile.menu li {
@@ -227,6 +226,7 @@ a {
 .ham-item {
     color: rgb(133, 133, 133);
     font-size: 30px;
+    text-decoration: none;
 }
 
 .ham-item:hover {
