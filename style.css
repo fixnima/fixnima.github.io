@@ -627,6 +627,11 @@ a {
         float: unset;
     }
 
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
 }
 
     
