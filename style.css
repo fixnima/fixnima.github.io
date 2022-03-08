@@ -27,9 +27,9 @@ ul {
     justify-content: space-around;
 }
 
-li {
-    display: inline;
+.nav-item li {
     float: left;
+    display: inline;
 }
 
 .nav-bar {
