@@ -337,7 +337,7 @@ a {
     text-align: center;
     width: 360px;
     height: 480px;
-    padding-left: 50%;
+    padding-left: 30%;
 }
 
 .img-imac {
@@ -555,7 +555,7 @@ a {
     }
 
     #hamburger-icon div {
-        width: 150px;
+        width: 125px;
         height:1rem;
         margin: 9px;
     }
