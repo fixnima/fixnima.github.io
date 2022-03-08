@@ -248,6 +248,8 @@ a {
 .ham-item {
     color: rgb(133, 133, 133);
     font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .ham-item:hover {
