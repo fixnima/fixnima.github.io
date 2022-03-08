@@ -92,14 +92,13 @@ a {
     transition-timing-function: linear;
 }
 
-.outsourcing {
+.div-outsource {
     padding-top: 100px;
     padding-bottom: 50px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
-    width: 100%;
 }
 
 .h1-outsource {
@@ -641,7 +640,7 @@ a {
         margin-top: 20px;
     }
 
-    .p-outsource, .outsourcing, .h1-outsource {
+    .p-outsource, .div-outsource, .h1-outsource {
         width: 100%;
         float: unset;
     }
