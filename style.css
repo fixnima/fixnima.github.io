@@ -642,7 +642,6 @@ a {
 
     .p-outsource, .div-outsource, .h1-outsource {
         width: 100%;
-        float: unset;
     }
 
 }
