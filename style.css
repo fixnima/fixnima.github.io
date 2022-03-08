@@ -337,8 +337,7 @@ a {
     text-align: center;
     width: 360px;
     height: 480px;
-    left: 50%;
-    right: 50%;
+    object-position: center;
 }
 
 .img-imac {
