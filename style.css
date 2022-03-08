@@ -75,7 +75,9 @@ a {
 }
 
 .a-phone:hover {
-    color: rgb(88, 145, 3);
+    color: rgb(96, 172, 172);
+    transition: 0.5s;
+    transition-timing-function: linear;
 }
 
 .a-email {
@@ -85,7 +87,9 @@ a {
 }
 
 .a-email:hover {
-    color: rgb(88, 145, 3);
+    color: rgb(96, 172, 172);
+    transition: 0.5s;
+    transition-timing-function: linear;
 }
 
 .outsource {
@@ -134,7 +138,6 @@ a {
 }
 
 .assembly {
-    width: 100%;
     border-color: rgb(148, 255, 255);
     padding-top: 100px;
     align-items: center;
@@ -159,7 +162,6 @@ a {
 }
 
 .servis {
-    width: 100%;
     background-color: rgb(148, 255, 255);
     padding-top: 100px;
     align-items: center;
