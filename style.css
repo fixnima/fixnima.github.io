@@ -89,7 +89,10 @@ a {
 }
 
 .outsource {
-    padding-top: 120px;
+    padding-top: 100px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: center;
 }
 
@@ -272,11 +275,21 @@ a {
     margin: 60px;
 }
 
+.facebook:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
 .email {
     width: 100px;
     height: 100px;
     color: rgb(148, 255, 255);
     margin: 60px;
+}
+
+.email:hover {
+    color: blue;
+    transition: 0.5s;
 }
 
 .company {
