@@ -230,6 +230,7 @@ a {
     color: rgb(133, 133, 133);
     background: hsl(180 100% 79% / 0.9);
     transition: 0.5s;
+    list-style-type: none;
 }
 
 .open .mobile-menu {
@@ -586,6 +587,7 @@ a {
     html {
         min-height: 568px;
         min-width: 320px;
+        background-image: linear-gradient(to top right, rgb(22, 22, 22), rgb(48, 48, 48));
     }
 
     .nav-bar {
