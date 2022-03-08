@@ -615,10 +615,6 @@ a {
         transform: rotate(45deg) translate(-15px, -19px)
     }
 
-    .outsource, .h1-outsource, .p-outsource {
-        width: 100%;
-        float: unset;
-    }
 
     .assembly, .h1-assembly, .p-assembly {
         width: 100%;
