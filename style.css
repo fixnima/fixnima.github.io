@@ -92,7 +92,7 @@ a {
     transition-timing-function: linear;
 }
 
-.outsource {
+.outsourcing {
     padding-top: 100px;
     padding-bottom: 50px;
     align-items: center;
@@ -639,6 +639,11 @@ a {
 
     .mobile-menu li {
         margin-top: 20px;
+    }
+
+    .p-outsource, .outsourcing, .h1-outsource {
+        width: 100%;
+        float: unset;
     }
 
 }
