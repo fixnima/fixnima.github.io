@@ -93,7 +93,7 @@ a {
 }
 
 .div-outsource {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     align-items: center;
     padding-left: 100px;
@@ -633,7 +633,7 @@ a {
     }
 
     .mobile-menu {
-        font-size: 2.5rem;
+        font-size: 50px;
     }
 
     .mobile-menu li {
