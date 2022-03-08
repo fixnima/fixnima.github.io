@@ -339,7 +339,8 @@ a {
 }
 
 .p-foto-servis1 {
-    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
     color: rgb(148, 255, 255);
     font-size: 27px;
     font-family: "Montserrat Alternates", sans-serif;
@@ -350,6 +351,8 @@ a {
     color: rgb(148, 255, 255);
     font-size: 23px;
     font-family: "Montserrat Alternates", sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 /* <----- Media Queries based on Screen Size -----> */
