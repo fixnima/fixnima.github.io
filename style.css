@@ -556,8 +556,9 @@ a {
     }
 
     #hamburger-icon div {
-        width: 2rem;
+        width: 70px;
         height:2rem;
+        margin: 9px;
     }
 
     .outsource {
