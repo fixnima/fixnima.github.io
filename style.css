@@ -94,6 +94,7 @@ a {
 
 .outsource {
     padding-top: 100px;
+    padding-bottom: 50px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -614,8 +615,9 @@ a {
         transform: rotate(45deg) translate(-15px, -19px)
     }
 
-    .outsource {
+    .outsource, .h1-outsource, .p-outsource {
         width: 100%;
+        float: unset;
     }
 
     .assembly, .h1-assembly, .p-assembly {
