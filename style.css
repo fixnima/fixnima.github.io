@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-.nav-bar ul {
+.nav-bar {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -27,7 +27,7 @@ a {
     justify-content: space-around;
 }
 
-.nav-item li {
+.nav-item {
     float: left;
     display: inline;
 }
