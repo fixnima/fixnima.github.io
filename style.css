@@ -340,7 +340,14 @@ li {
 .p-foto-servis1 {
     text-align: center;
     color: rgb(148, 255, 255);
-    font-size: 25px;
+    font-size: 27px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.list-servis1 {
+    text-align: center;
+    color: rgb(148, 255, 255);
+    font-size: 23px;
     font-family: "Montserrat Alternates", sans-serif;
 }
 
