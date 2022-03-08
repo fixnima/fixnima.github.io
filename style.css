@@ -8,8 +8,6 @@ html {
 .banner {
     max-width: 693px;
     max-height: 198px;
-    min-width: auto;
-    min-height: auto;
     float: right;
 }
 
@@ -594,9 +592,6 @@ a {
         float: unset;
     }
 
-    .banner {
-        size: 15%;
-    }
 }
 
     
