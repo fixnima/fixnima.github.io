@@ -337,13 +337,12 @@ a {
     text-align: center;
     width: 360px;
     height: 480px;
-    object-position: center;
+    padding-left: 50%;
 }
 
 .img-imac {
     width: 360px;
     height: 480px;
-    left: 50%;
 }
 
 .p-foto-servis1 {
@@ -556,8 +555,8 @@ a {
     }
 
     #hamburger-icon div {
-        width: 100px;
-        height:1.5rem;
+        width: 150px;
+        height:1rem;
         margin: 9px;
     }
 
