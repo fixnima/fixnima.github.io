@@ -75,7 +75,7 @@ a {
 }
 
 .a-phone:hover {
-    color: rgb(96, 172, 172);
+    color: rgb(156, 94, 207);
     transition: 0.5s;
     transition-timing-function: linear;
 }
@@ -87,7 +87,7 @@ a {
 }
 
 .a-email:hover {
-    color: rgb(96, 172, 172);
+    color: rgb(156, 94, 207);
     transition: 0.5s;
     transition-timing-function: linear;
 }
