@@ -566,13 +566,13 @@ a {
     }
 
     .open .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-12px, 12px);
-        transform: rotate(-45deg) translate(-12px, 12px);
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
     }
 
     .open .bar3 {
-        -webkit-transform: rotate(45deg) translate(-12px, -16px);
-        transform: rotate(45deg) translate(-12px, -16px)
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
     }
 
     .outsource {
