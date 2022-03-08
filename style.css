@@ -70,11 +70,6 @@ a {
 
 /* services.html elements styling */
 
-.body-services {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 .a-phone {
     color: royalblue;
     font-size: 28px;
@@ -245,7 +240,6 @@ a {
 /* styling for about.html */
 
 .about-us-div {
-    width: 100%;
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
@@ -343,20 +337,22 @@ a {
     align-content: center;
     width: 360px;
     height: 480px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .p-foto-servis1 {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
     color: rgb(148, 255, 255);
-    font-size: 27px;
+    font-size: 24px;
     font-family: "Montserrat Alternates", sans-serif;
 }
 
 .list-servis1 {
     text-align: center;
     color: rgb(148, 255, 255);
-    font-size: 23px;
+    font-size: 20px;
     font-family: "Montserrat Alternates", sans-serif;
     padding-left: 200px;
     padding-right: 200px;
