@@ -100,8 +100,6 @@ a {
     margin: auto 0;
     display: none;
     cursor: pointer;
-    position: fixed;
-    top: 0;
 }
 
 #hamburger-icon div {
