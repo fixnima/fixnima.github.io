@@ -3,7 +3,7 @@
 html {
     max-width: 4096px;
     max-height: 2160px;
-    background-image: linear-gradient(to top right, rgb(22, 22, 22) , rgb(100, 100, 100));
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(100, 100, 100));
 }
 
 .banner {
@@ -23,12 +23,18 @@ a {
     font-size: 14px;
     font-weight: 200;
     background-color: rgb(46, 46, 46);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .a-footer {
     font-weight: bold;
     font-size: 14px;
     color: royalblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .a-footer:hover {
@@ -163,6 +169,9 @@ a {
     transition-timing-function: linear;
 }
 
+/* <----------------------------------------> */
+
+
 
 
 /* services.html elements styling */
@@ -296,6 +305,7 @@ a {
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .h1-about {
@@ -373,7 +383,6 @@ a {
     padding-top: 120px;
     align-items: center;
     width: 100%;
-    padding-bottom: 50px;
 }
 
 .h1-welcome {
@@ -389,6 +398,7 @@ a {
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 .h2-foto-servis1 {
