@@ -1,8 +1,9 @@
+/* <------------ basics for every page ------------> */
 
 html {
     max-width: 4096px;
     max-height: 2160px;
-    background-image: linear-gradient(to top right, rgb(22, 22, 22) , rgb(31, 31, 31));
+    background-image: linear-gradient(to top right, rgb(22, 22, 22) , rgb(100, 100, 100));
 }
 
 .banner {
@@ -14,6 +15,28 @@ html {
 a {
     text-decoration: none;
 }
+
+.copyright {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(148, 255, 255);
+    display: inline;
+    font-size: 14px;
+    font-weight: 200;
+    background-color: rgb(46, 46, 46);
+}
+
+.a-footer {
+    font-weight: bold;
+    font-size: 14px;
+    color: royalblue;
+}
+
+.a-footer:hover {
+    color: rgb(156, 94, 207);
+    transition: 0.5s;
+}
+
+/* navigation bar */
 
 .nav-bar {
     margin: 0;
@@ -65,6 +88,82 @@ a {
     font-size: 22px;
 
 }
+
+/* hamburger icon */
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(148, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+/* mobile menu */
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    font-family: "Rubik Mono One", sans-serif;
+    color: rgb(133, 133, 133);
+    background: hsl(180 100% 79% / 0.9);
+    transition: 0.5s;
+    list-style-type: none;
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.7s;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.ham-item {
+    color: rgb(133, 133, 133);
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.ham-item:hover {
+    background-color: black;
+    color: rgb(148, 255, 255);
+    font-size: 31px;
+    transition: 0.7s;
+    transition-timing-function: linear;
+}
+
+
 
 /* services.html elements styling */
 
@@ -188,79 +287,6 @@ a {
     color: rgb(133, 133, 133);
 }
 
-/* hamburger icon */
-
-#hamburger-icon {
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
-}
-
-#hamburger-icon div {
-    width: 35px;
-    height: 3px;
-    background-color: rgb(148, 255, 255);
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.open .bar1{
-    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-    transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.open .bar2 {
-    opacity: 0;
-}
-
-.open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px, -8px);
-    transform: rotate(45deg) translate(-6px, -8px);
-}
-
-/* mobile menu */
-
-.mobile-menu {
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: 100%;
-    width: 50%;
-    font-family: "Rubik Mono One", sans-serif;
-    color: rgb(133, 133, 133);
-    background: hsl(180 100% 79% / 0.9);
-    transition: 0.5s;
-    list-style-type: none;
-}
-
-.open .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    transition: 0.7s;
-}
-
-.mobile-menu li {
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-
-.ham-item {
-    color: rgb(133, 133, 133);
-    font-size: 30px;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.ham-item:hover {
-    background-color: black;
-    color: rgb(148, 255, 255);
-    font-size: 31px;
-    transition: 0.7s;
-    transition-timing-function: linear;
-}
 
 
 /* styling for about.html */
