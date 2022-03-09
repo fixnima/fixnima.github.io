@@ -571,15 +571,201 @@ a {
     /* iPhone 4 ----------- */
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
     /* Styles */
+    html {
+        max-width: 480px;
+        min-width: 320px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
     /* Styles */
+    html {
+        max-width: 480px;
+        min-width: 320px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     /* iPhone 5 ----------- */
     @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
+    html {
+        min-height: 568px;
+        min-width: 320px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -654,19 +840,267 @@ a {
     /* iPhone 6, 7, 8 ----------- */
     @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
+    html {
+        min-height: 667px;
+        min-width: 375px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
+    html {
+        min-height: 667px;
+        min-width: 375px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     /* iPhone 6+, 7+, 8+ ----------- */
     @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
+    html {
+        min-height: 736px;
+        min-width: 414px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
+    html {
+        min-height: 736px;
+        min-width: 414px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    #hamburger-icon div {
+        width: 85px;
+        height:1rem;
+        margin: 9px;
+    }
+
+    .open .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+        transform: rotate(-45deg) translate(-15px, 15px);
+    }
+
+    .open .bar3 {
+        -webkit-transform: rotate(45deg) translate(-15px, -19px);
+        transform: rotate(45deg) translate(-15px, -19px)
+    }
+
+    .p-outsource, .div-outsource, .h1-outsource {
+        width: 100%;
+    }
+
+
+    .assembly, .h1-assembly, .p-assembly {
+        width: 100%;
+        float: unset;
+    }
+
+    .servis, .h1-servis, .p-servis {
+        width: 100%;
+        color: rgb(133, 133, 133);
+        background-color: rgb(148, 255, 255);
+        float: unset;
+    }
+
+    .web, .h1-web, .p-web {
+        width: 100%;
+        float: unset;
+    }
+
+    .mobile-menu {
+        font-size: 50px;
+    }
+
+    .mobile-menu li {
+        margin-top: 20px;
+    }
+
+    .services-body {
+        width: 100%;
+    }
     }
     
     /* iPhone X ----------- */
