@@ -3,6 +3,7 @@
 html {
     max-width: 4096px;
     max-height: 2160px;
+    min-width: 320px;
     background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(100, 100, 100));
 }
 
