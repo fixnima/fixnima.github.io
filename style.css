@@ -32,7 +32,7 @@ a {
 .a-footer {
     font-weight: bold;
     font-size: 14px;
-    color: royalblue;
+    color: rgb(112, 155, 179);
 }
 
 .a-footer:hover {
