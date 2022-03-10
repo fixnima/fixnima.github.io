@@ -686,10 +686,6 @@ a {
         min-width: 320px;
     }
 
-    body {
-        width: 320px;
-    }
-
     .nav-bar {
         display: none;
     }
