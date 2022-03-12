@@ -137,7 +137,7 @@ a {
     width: 50%;
     font-family: "Rubik Mono One", sans-serif;
     color: rgb(133, 133, 133);
-    background: hsl(180 100% 79% / 0.8);
+    background: hsl(180 100% 79% / 0.87);
     transition: 0.5s;
     list-style-type: none;
 }
