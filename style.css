@@ -695,7 +695,7 @@ a {
     }
 
     #hamburger-icon div {
-        max-width: 85px;
+        width: 85px;
         height:1rem;
         margin: 9px;
     }
@@ -710,27 +710,7 @@ a {
         transform: rotate(45deg) translate(-15px, -19px)
     }
 
-    .p-outsource, .div-outsource, .h1-outsource {
-        width: 100%;
-    }
-
-
-    .assembly, .h1-assembly, .p-assembly {
-        width: 100%;
-        float: unset;
-    }
-
-    .servis, .h1-servis, .p-servis {
-        width: 100%;
-        color: rgb(133, 133, 133);
-        background-color: rgb(148, 255, 255);
-        float: unset;
-    }
-
-    .web, .h1-web, .p-web {
-        width: 100%;
-        float: unset;
-    }
+    
 
     .mobile-menu {
         font-size: 50px;
