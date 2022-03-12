@@ -28,7 +28,7 @@ a {
     bottom: 0;
     padding-top: 8px;
     margin-bottom: 0;
-    position: static;
+    position: bottom;
 }
 
 .a-footer {
