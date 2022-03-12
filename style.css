@@ -28,6 +28,7 @@ a {
     bottom: 0;
     padding-top: 8px;
     margin-bottom: 0;
+    position: static;
 }
 
 .a-footer {
