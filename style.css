@@ -5,12 +5,17 @@ html {
     max-height: 2160px;
     min-width: 500px;
     background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(100, 100, 100));
+    background-repeat: no-repeat;
 }
 
 .banner {
     max-width: 693px;
     max-height: 198px;
     float: right;
+    position: fixed;
+    top: 0;
+    right: 45px;
+    margin: 0;
 }
 
 a {
@@ -438,6 +443,19 @@ a {
     padding-left: 200px;
     padding-right: 200px;
 }
+
+
+/* <----- pricing ------> */
+
+.pricing {
+    margin: 200px;
+    text-align: center;
+    color: rgb(148, 255, 255);
+    list-style-type: none;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+
 
 /* <----- Media Queries based on Screen Size -----> */
 
