@@ -448,13 +448,32 @@ a {
 /* <----- pricing ------> */
 
 .pricing {
-    margin: 200px;
-    text-align: center;
+    position: relative;
+    padding: 500px;
     color: rgb(148, 255, 255);
     list-style-type: none;
     font-family: "Montserrat Alternates", sans-serif;
 }
 
+.iphone-div {
+    position: absolute;
+    text-align: center;
+    left: 70px;
+    top: 125px;
+    color: rgb(148, 255, 255);
+    list-style-type: none;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.ipad-div {
+    position: absolute;
+    text-align: center;
+    color: rgb(148, 255, 255);
+    list-style-type: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    right: 70px;
+    top: 125px;
+}
 
 
 /* <----- Media Queries based on Screen Size -----> */
