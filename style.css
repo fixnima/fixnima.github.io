@@ -475,6 +475,15 @@ a {
     top: 125px;
 }
 
+.other-div {
+    position: absolute;
+    text-align: center;
+    color: rgb(148, 255, 255);
+    list-style-type: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    left: 35%;
+    bottom: 100px;
+}
 
 /* <----- Media Queries based on Screen Size -----> */
 
