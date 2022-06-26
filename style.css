@@ -29,11 +29,11 @@ a {
     font-weight: 100;
     background-color: rgb(46, 46, 46);
     text-align: center;
-    max-width: 100%;
+    width: 100%;
     bottom: 0;
     padding-top: 8px;
     margin-bottom: 0;
-    position: bottom;
+    position: fixed;
 }
 
 .a-footer {
@@ -400,6 +400,26 @@ a {
     font-family: "Rubik Mono One", sans-serif;
 }
 
+.akcia-ref-div {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(148, 255, 255);
+    text-align: center;
+}
+
+.podmienka1 {
+    font-size: 10px;
+}
+
+.podmienka2 {
+    font-size: 10px;
+}
+
+.akcia-div {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(148, 255, 255);
+    text-align: center;
+}
+
 .div-foto-servis1 {
     padding-top: 80px;
     align-items: center;
@@ -448,8 +468,9 @@ a {
 /* <----- pricing ------> */
 
 .pricing {
+    margin-top: 150px;
+    padding-bottom: 500px;
     position: relative;
-    padding: 500px;
     color: rgb(148, 255, 255);
     list-style-type: none;
     font-family: "Montserrat Alternates", sans-serif;
@@ -459,7 +480,6 @@ a {
     position: absolute;
     text-align: center;
     left: 70px;
-    top: 125px;
     color: rgb(148, 255, 255);
     list-style-type: none;
     font-family: "Montserrat Alternates", sans-serif;
@@ -472,7 +492,6 @@ a {
     list-style-type: none;
     font-family: "Montserrat Alternates", sans-serif;
     right: 70px;
-    top: 125px;
 }
 
 .other-div {
