@@ -2,7 +2,7 @@
 
 html {
     max-width: 4096px;
-    max-height: 2160px;
+    max-height: 100000000px;
     min-width: 500px;
     background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(100, 100, 100));
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ a {
 
 .nav-item a{
     display: block;
-    font-size: 22px;
+    font-size: 14px;
     color:rgb(119, 119, 119);
     text-align: center;
     text-decoration: none;
@@ -98,7 +98,7 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 14px;
 
 }
 
@@ -381,6 +381,16 @@ a {
     color: rgb(148, 255, 255);
     text-align: center;
     font-size: 26px;
+}
+
+.obchodne-podmienky {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(148, 255, 255);
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
